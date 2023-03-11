@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Jingzhi Sun' Homepage"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Jingzhi Sun"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/Edward-Jing"
+  github           : "Edward-Jing"
   google_plus      :
   keybase          :
   instagram        :
@@ -107,7 +107,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            : "https://steamcommunity.com/id/edward5287/"
+  steam            : "/edward5287"
   tumblr           :
   twitter          : #"replacethistwitterhandle"
   vine             :
