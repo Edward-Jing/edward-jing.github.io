@@ -1,3 +1,5 @@
+Education
+
 # Jingzhi(Edward) Sun
 
 **Email**: [edsun@ucdavis.edu](mailto:edsun@ucdavis.edu)  
