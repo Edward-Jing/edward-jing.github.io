@@ -1,13 +1,11 @@
 ---
-permalink: /
+layout: archive
 title: "CV"
-excerpt: "CV"
+permalink: /cv/
 author_profile: true
-redirect_from: 
-  - /cv/
-  - /cv.html
+redirect_from:
+  - /resume
 ---
-
 Education
 
 # Jingzhi(Edward) Sun
