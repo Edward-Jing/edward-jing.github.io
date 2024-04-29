@@ -6,7 +6,6 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-Education
 
 # Jingzhi(Edward) Sun
 
