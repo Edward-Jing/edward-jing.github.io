@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Jingzhi Sun JS monogram">
+  <defs>
+    <linearGradient id="bg" x1="68" y1="42" x2="448" y2="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111820"/>
+      <stop offset="0.56" stop-color="#07090d"/>
+      <stop offset="1" stop-color="#13100c"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="96" y1="108" x2="394" y2="392" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9be7ee"/>
+      <stop offset="1" stop-color="#4da6b4"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="134" y1="116" x2="394" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f0c987"/>
+      <stop offset="1" stop-color="#b8824f"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <path d="M88 120h336M88 392h336M120 88v336M392 88v336" fill="none" stroke="#7ac7cf" stroke-opacity=".18" stroke-width="10"/>
+  <path d="M108 104h296v304H108z" fill="none" stroke="url(#teal)" stroke-width="18"/>
+  <path d="M142 142h228" fill="none" stroke="#edf0f2" stroke-opacity=".22" stroke-width="8"/>
+  <path d="M212 150v158c0 47-30 78-77 78-13 0-28-2-42-7" fill="none" stroke="url(#teal)" stroke-width="38" stroke-linecap="square" stroke-linejoin="miter" filter="url(#glow)"/>
+  <path d="M315 148c-49 0-78 23-78 61 0 79 148 44 148 122 0 39-32 60-82 60-36 0-68-10-94-29" fill="none" stroke="url(#gold)" stroke-width="38" stroke-linecap="square" stroke-linejoin="miter" filter="url(#glow)"/>
+  <path d="M414 112l-34 34M98 401l34-34" fill="none" stroke="#c99d66" stroke-width="12" stroke-linecap="square"/>
+  <circle cx="404" cy="108" r="9" fill="#c99d66"/>
+  <circle cx="108" cy="404" r="9" fill="#7ac7cf"/>
+</svg>
