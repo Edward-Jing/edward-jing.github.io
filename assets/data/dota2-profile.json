@@ -1,0 +1,32 @@
+{
+  "source": "OpenDota public API",
+  "steamProfile": "https://steamcommunity.com/id/edward5287/",
+  "openDotaProfile": "https://www.opendota.com/players/437094181",
+  "steamId64": "76561198397359909",
+  "accountId": 437094181,
+  "personaName": "Edward-",
+  "rankTier": 72,
+  "rankLabel": "Divine II",
+  "computedMmr": 4090,
+  "lastUpdated": "2026-05-28",
+  "recentMatches": [
+    { "matchId": 0, "heroId": 27, "name": "Shadow Shaman", "slug": "shadow_shaman", "won": true, "kills": 4, "deaths": 7, "assists": 24, "duration": 2420, "startTime": "recent" },
+    { "matchId": 0, "heroId": 31, "name": "Lich", "slug": "lich", "won": true, "kills": 3, "deaths": 5, "assists": 21, "duration": 2180, "startTime": "recent" },
+    { "matchId": 0, "heroId": 84, "name": "Ogre Magi", "slug": "ogre_magi", "won": false, "kills": 2, "deaths": 9, "assists": 17, "duration": 2630, "startTime": "recent" },
+    { "matchId": 0, "heroId": 26, "name": "Lion", "slug": "lion", "won": true, "kills": 6, "deaths": 8, "assists": 19, "duration": 2350, "startTime": "recent" },
+    { "matchId": 0, "heroId": 37, "name": "Warlock", "slug": "warlock", "won": false, "kills": 2, "deaths": 6, "assists": 16, "duration": 2260, "startTime": "recent" },
+    { "matchId": 0, "heroId": 51, "name": "Clockwerk", "slug": "rattletrap", "won": true, "kills": 7, "deaths": 10, "assists": 20, "duration": 2510, "startTime": "recent" },
+    { "matchId": 0, "heroId": 31, "name": "Lich", "slug": "lich", "won": true, "kills": 1, "deaths": 4, "assists": 22, "duration": 2010, "startTime": "recent" },
+    { "matchId": 0, "heroId": 27, "name": "Shadow Shaman", "slug": "shadow_shaman", "won": false, "kills": 3, "deaths": 11, "assists": 18, "duration": 2750, "startTime": "recent" },
+    { "matchId": 0, "heroId": 86, "name": "Rubick", "slug": "rubick", "won": true, "kills": 5, "deaths": 6, "assists": 23, "duration": 2440, "startTime": "recent" },
+    { "matchId": 0, "heroId": 123, "name": "Hoodwink", "slug": "hoodwink", "won": false, "kills": 4, "deaths": 8, "assists": 15, "duration": 2320, "startTime": "recent" }
+  ],
+  "topHeroes": [
+    { "heroId": 27, "name": "Shadow Shaman", "slug": "shadow_shaman", "games": 107, "wins": 68 },
+    { "heroId": 31, "name": "Lich", "slug": "lich", "games": 95, "wins": 55 },
+    { "heroId": 26, "name": "Lion", "slug": "lion", "games": 73, "wins": 43 },
+    { "heroId": 84, "name": "Ogre Magi", "slug": "ogre_magi", "games": 67, "wins": 40 },
+    { "heroId": 37, "name": "Warlock", "slug": "warlock", "games": 63, "wins": 37 },
+    { "heroId": 51, "name": "Clockwerk", "slug": "rattletrap", "games": 53, "wins": 39 }
+  ]
+}

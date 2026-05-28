@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visitor Map | Jingzhi Sun</title>
+    <meta name="description" content="Visitor map for Jingzhi Sun's personal website.">
+    <link rel="icon" href="/images/site-logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="/assets/css/personal-site.css">
+  </head>
+  <body data-page="map">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-header>
+      <a class="wordmark" href="/"><span>Jingzhi Sun</span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a data-page="about" href="/">About</a>
+        <a data-page="research" href="/research.html">Research</a>
+        <a data-page="map" href="/map.html">Map</a>
+        <a data-page="life" href="/life.html">Life</a>
+        <a data-page="gallery" href="/gallery.html">Gallery</a>
+        <a data-page="dota" href="/dota2.html">Dota2</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="section-band map-band standalone-map" aria-labelledby="visitor-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Visitor Map</p>
+          <h1 id="visitor-title">Visitor Map</h1>
+        </div>
+        <div class="map-layout">
+          <div class="visitor-map realistic-map" aria-label="Interactive world visitor map" data-visitor-map></div>
+          <aside class="map-panel" aria-label="Visitor map status">
+            <span>Visitor Pin</span>
+            <strong id="visitor-place">Detecting location</strong>
+            <p id="visitor-detail">Preparing a regional pin for this browser.</p>
+            <button class="button primary" type="button" id="leave-pin">Update pin</button>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Jingzhi Sun</span>
+      <span>Visitor map</span>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/assets/js/personal-site.js"></script>
+  </body>
+</html>

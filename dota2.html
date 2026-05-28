@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dota2 | Jingzhi Sun</title>
+    <meta name="description" content="Steam-linked Dota2 profile, rank, and most-played heroes for Jingzhi Sun.">
+    <link rel="icon" href="/images/site-logo.png">
+    <link rel="stylesheet" href="/assets/css/personal-site.css">
+  </head>
+  <body data-page="dota">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-header>
+      <a class="wordmark" href="/"><span>Jingzhi Sun</span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a data-page="about" href="/">About</a>
+        <a data-page="research" href="/research.html">Research</a>
+        <a data-page="map" href="/map.html">Map</a>
+        <a data-page="life" href="/life.html">Life</a>
+        <a data-page="gallery" href="/gallery.html">Gallery</a>
+        <a data-page="dota" href="/dota2.html">Dota2</a>
+      </nav>
+    </header>
+
+    <main id="main" class="page-main" data-dota-profile>
+      <section class="page-hero dota-hero section-band">
+        <div>
+          <p class="eyebrow">Dota2</p>
+          <h1>Steam-linked Dota2 profile</h1>
+          <div class="hero-actions">
+            <a class="button primary" href="https://steamcommunity.com/id/edward5287/">Steam profile</a>
+            <a class="button" href="https://www.opendota.com/players/437094181">OpenDota</a>
+          </div>
+          <section class="recent-matches-panel" aria-labelledby="recent-matches-title">
+            <div class="recent-matches-head">
+              <p class="eyebrow">Recent Matches</p>
+              <h2 id="recent-matches-title">Last 10 games</h2>
+              <strong data-dota-recent-summary>Loading...</strong>
+            </div>
+            <div class="recent-match-list" data-dota-recent-matches aria-live="polite">
+              <article class="recent-match is-loading">
+                <span>Loading match history</span>
+              </article>
+            </div>
+          </section>
+        </div>
+        <aside class="rank-panel">
+          <div class="rank-art" aria-label="Dota2 Divine II rank badge">
+            <img src="https://www.opendota.com/assets/images/dota2/rank_icons/rank_icon_7.png" alt="Dota2 Divine rank medal">
+            <img class="rank-star" src="https://www.opendota.com/assets/images/dota2/rank_icons/rank_star_2.png" alt="Two-star rank marker">
+          </div>
+          <img class="steam-avatar" data-dota-avatar hidden alt="Steam avatar for Edward-">
+          <span>Steam persona</span>
+          <strong data-dota-name>Loading...</strong>
+          <div class="rank-badge" data-dota-rank>Loading rank</div>
+          <p data-dota-mmr>Loading MMR estimate</p>
+          <small data-dota-source>Loading public data</small>
+        </aside>
+      </section>
+
+      <section class="section-band dota-band">
+        <div class="section-heading">
+          <p class="eyebrow">Most-used Heroes</p>
+          <h2>Comfort picks and long-term habits</h2>
+        </div>
+        <div class="hero-stat-list" data-dota-heroes aria-live="polite">
+          <article class="hero-stat">
+            <span>#</span>
+            <strong>Loading heroes...</strong>
+            <div>Public data is loading.</div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Jingzhi Sun</span>
+      <span>Dota2 data from public Steam/OpenDota sources</span>
+    </footer>
+    <script src="/assets/js/personal-site.js"></script>
+    <script src="/assets/js/dota2.js?v=recent-matches-compact"></script>
+  </body>
+</html>
