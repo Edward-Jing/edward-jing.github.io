@@ -38,21 +38,27 @@
     const introDuration = 4700;
     let introTimer = null;
     const closeEntry = () => {
-      if (introTimer) window.clearTimeout(introTimer);
+      if (introTimer) {
+        window.clearTimeout(introTimer);
+        introTimer = null;
+      }
+      window.removeEventListener("mousemove", closeEntry);
+      window.removeEventListener("touchstart", closeEntry);
       entryGate.classList.add("is-hidden");
       writeSessionFlag(entryKey, "true");
+    };
+    const armEntryExit = () => {
+      introTimer = null;
+      entryGate.classList.add("is-awaiting-motion");
+      window.addEventListener("mousemove", closeEntry, { once: true });
+      window.addEventListener("touchstart", closeEntry, { once: true, passive: true });
     };
 
     if (readSessionFlag(entryKey) && !forceEntry) {
       entryGate.classList.add("is-hidden");
     } else {
-      introTimer = window.setTimeout(closeEntry, introDuration);
+      introTimer = window.setTimeout(armEntryExit, introDuration);
     }
-
-    entryGate.addEventListener("click", closeEntry);
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && !entryGate.classList.contains("is-hidden")) closeEntry();
-    });
   }
 
   const focusData = {
