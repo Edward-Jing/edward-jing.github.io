@@ -127,8 +127,8 @@ button {
 
 .entry-gate-inner {
   position: relative;
-  width: min(100%, 820px);
-  padding: clamp(24px, 5vw, 52px);
+  width: min(100%, 700px);
+  padding: clamp(24px, 4.6vw, 44px);
   border-left: 2px solid var(--teal);
   background: rgba(6, 8, 11, 0.78);
   box-shadow: 0 26px 80px rgba(0, 0, 0, 0.42), inset 0 0 0 1px rgba(122, 199, 207, 0.12);
@@ -154,12 +154,12 @@ button {
 }
 
 .entry-quote {
-  max-width: 760px;
-  margin-bottom: 16px;
+  max-width: 620px;
+  margin-bottom: 14px;
   color: #fff;
-  font-size: clamp(1.75rem, 4.7vw, 4.05rem);
-  font-weight: 830;
-  line-height: 1.04;
+  font-size: clamp(1.28rem, 2.45vw, 2.55rem);
+  font-weight: 760;
+  line-height: 1.14;
   text-shadow: 0 0 22px rgba(122, 199, 207, 0.16);
 }
 
@@ -179,9 +179,9 @@ button {
 
 .entry-gate cite {
   display: block;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.84rem;
   font-style: normal;
   font-weight: 750;
   opacity: 0;
@@ -309,11 +309,11 @@ button {
 }
 
 .site-nav a {
-  padding: 9px 11px;
+  padding: 10px 12px;
   border-radius: 6px;
   color: var(--muted);
-  font-size: 0.92rem;
-  font-weight: 650;
+  font-size: 1rem;
+  font-weight: 700;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -1394,8 +1394,8 @@ h3 {
   }
 
   .site-nav a {
-    padding: 8px 9px;
-    font-size: 0.88rem;
+    padding: 9px 10px;
+    font-size: 0.96rem;
   }
 
   h1 {
