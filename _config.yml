@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jingzhi Sun' Homepage"
+title                    : "Jingzhi Sun's Homepage"
 title_separator          : "-"
 name                     : &name "Jingzhi Sun"
-description              : &description "personal description"
+description              : &description "Jingzhi Sun's homepage, with research interests in statistics, trustworthy large language models, and adversarial robustness."
 url                      : https://edward-jing.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Edward-Jing/edward-jing.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jingzhi Sun"
   avatar           : "main photo.png"
-  bio              : "Ph.D in Statistaics"
+  bio              : "Ph.D. student in Statistics studying LLM adversarial robustness"
   location         : "Davis, CA & Shanghai, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
